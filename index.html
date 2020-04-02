@@ -7,16 +7,31 @@
     <title>Untitled</title>
     <meta name="description" content="This is an example of a meta description.">
     <link rel="stylesheet" type="text/css" href="theme.css">
-    <script src="//cdn-5ce4a003f911c80f50818892.closte.com/script.js" async></script>    
-    <!--[if lt IE 9]>
+    <script src="//cdn-5ce4a003f911c80f50818892.closte.com/script.js" async></script>
+	  <!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
   <body>
-		<form action="http://maps.google.com/maps" method="get" target="_blank">
+	  <form role="form">
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox"> Remember me</label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>		<form action="http://maps.google.com/maps" method="get" target="_blank">
    <label for="saddr">Enter your location</label>
    <input type="text" name="saddr" />
    <input type="hidden" name="daddr" value="350 5th Ave New York, NY 10018 (Empire State Building)" />
    <input type="submit" value="Get directions" />
-</form>  </body>
+</form>
+<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+</body>
 </html>
