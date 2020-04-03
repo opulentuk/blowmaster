@@ -4,8 +4,13 @@ body {
     font-size: 14px;
     color: var(--secondary-color-darkest);
 }
-
-:root {
+body{
+background: url("https://i2.wp.com/background4free.com/download/blue_aqua_turquoise_681502548.jpg?q=100") no-repeat center center fixed; ; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}:root {
     --secondary-color: hsl(240, 56%, 98%);
     --secondary-color-darker: hsl(240, 56%, 90%);
     --secondary-color-darkest: hsl(243, 24%, 43%);
